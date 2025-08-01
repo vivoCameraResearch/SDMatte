@@ -42,7 +42,6 @@ Peng-Tao Jiang<sup>2†</sup>
 ## Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Dataset](#dataset)
 - [Pretrained Model](#pretrained-model)
 - [Test](#test)
 
@@ -62,11 +61,6 @@ Extensive experiments on multiple datasets demonstrate the superior performance 
   <img src="assets/pipeline.png" width="100%" height="100%"/>
 </div><br/>
 
-### Visualization
-
-<div align="center">
-  <img src="assets/compare.png" width="100%" height="100%"/>
-</div>
 
 ## Installation
 
@@ -88,14 +82,6 @@ Extensive experiments on multiple datasets demonstrate the superior performance 
   python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
   ```
 
-## Dataset
-
-* You should prepare [Composition-1K](https://sites.google.com/view/deepimagematting), [DIS-646](https://github.com/yuhaoliu7456/CVPR2020-HAttMatting), [AM-2K](https://github.com/JizhiziLi/GFM), [UHRSD](https://github.com/iCVTEAM/PGNet), [RefMatte](https://github.com/jizhiziLi/rim) and [BG-20K](https://github.com/JizhiziLi/GFM) dataset for training SDMatte and LiteSDMatte.
-
-* You should prepare [Composition-1K](https://sites.google.com/view/deepimagematting), [DIS-646](https://github.com/yuhaoliu7456/CVPR2020-HAttMatting), [AM-2K](https://github.com/JizhiziLi/GFM), [COCO-Matte](https://github.com/XiaRho/SEMat) and [BG-20K](https://github.com/JizhiziLi/GFM) dataset for training SDMatte<sup>*</sup>.
-
-
-* Check lines 15–56 and 529–530 in `SDMatte/data/dataset.py` to modify the data path to your data path.
 
 ## Pretrained Model
 
